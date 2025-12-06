@@ -1,0 +1,189 @@
+/* --- Reset Básico (A "Funilaria") --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* --- O Efeito Parallax (Mágica 1) --- */
+.hero-section {
+    /* 1. Imagem de Fundo */
+    /* Peça para eles baixarem uma imagem de 'tech' (do Unsplash, Pexels) e colocar na pasta */
+    background-image: url('https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg');
+    /*filter: blur(1px);*/
+
+    
+    /* 2. O Pulo do Gato */
+    background-attachment: fixed; /* Isso congela o fundo */
+
+    /* 3. Ajustes de Cobertura */
+    height: 100vh; /* 100% da altura da tela */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* 4. Textinho centralizado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.img-top{
+filter: blur(1px);
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+/* --- Seções de Conteúdo --- */
+.content-section {
+    padding: 80px 20px;
+    /* Isso 'corta' o conteúdo que vaza para fora, essencial para o slide-in */
+    overflow-x: hidden; 
+    
+
+    
+    
+    
+}
+
+.align{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    
+    
+}
+.card:hover{
+    
+    transform: scale(1.1);
+    
+}
+
+.principal-text{
+    color:#7A5C3C;
+    font-size: 50px;
+
+}
+.icon-size{
+    
+    display: flex;
+    flex: row;
+    gap:15px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.icon-size:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+ul{
+    list-style-type: none;
+    
+}
+
+.second-text{
+    color:#FFFFFF;
+    font-size: 50px;
+
+}
+
+.img{
+    
+    width: 50vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+.content-section h2{
+    margin-bottom: 10px;
+}
+
+
+
+.card {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+
+.bg-dark {
+    background-color: #E8C39E;
+}
+
+.bg-dark .card {
+    background-color: #7A5C3C;
+    color: white;
+}
+
+/* --- O Botão (CTA) --- */
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 25px 40px;
+    background-color: #7A5C3C;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    font-size: 30px;
+}
+
+
+.cta-button:hover {
+    transform: scale(1.05);
+}
+
+/* --- A Mágica do Scroll (Mágica 2) --- */
+
+/* * ESTADO INICIAL (Escondido)
+ * O elemento COMEÇA assim.
+*/
+.hidden {
+    opacity: 0;
+    /* 'transition' é a chave! Diz ao CSS para 'animar' qualquer mudança
+       que aconteça nessas propriedades (opacity, transform). */
+    transition: all 1s ease-out;
+}
+
+/* Modificadores de direção */
+.hidden-left {
+    transform: translateX(-100%);
+}
+
+.hidden-right {
+    transform: translateX(100%);
+}
+
+.hidden-fade {
+    /* Só precisa da 'opacity: 0' da classe .hidden principal */
+    transform: translateY(50px); /* Bônus: sobe um pouquinho */
+}
+
+
+/* * ESTADO FINAL (Visível)
+ * Esta é a classe que o JavaScript vai ADICIONAR.
+*/
+.show {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+}
