@@ -1,16 +1,13 @@
-# Mini Hackathon – Faculdade Flamingo
+# ✨Mini Hackathon – Faculdade Flamingo
 
-## 📅 Data
-06 de dezembro
+Participei de uma dinâmica em formato de **mini hackathon** promovida pela **Faculdade Flamingo**, onde tive o desafio de em poucas horas, **analisar e melhorar a estrutura de um código pré-definido** pelo professor. A proposta foi trabalhar de forma individual, aplicando boas práticas de desenvolvimento para tornar o projeto mais organizado, funcional e visualmente aprimorado.
 
 🌐 Site: https://hackathon-jaison-flamingo.vercel.app
 
+---
+
 ![App Screenshot](img-1.JPG)
 
-## 📌 Sobre a atividade
-Participei de uma dinâmica em formato de **mini hackathon** promovida pela **Faculdade Flamingo**, onde tive o desafio de, em poucas horas, **analisar e melhorar a estrutura de um código pré-definido** pelo professor.
-
-A proposta foi trabalhar de forma individual, aplicando boas práticas de desenvolvimento para tornar o projeto mais organizado, funcional e visualmente aprimorado.
 
 ## 🎯 Objetivo
 - Refatorar e organizar o código existente  
