@@ -19,6 +19,7 @@ Participei de uma dinâmica em formato de **mini hackathon** promovida pela **Fa
 - HTML
 - CSS
 - Conceitos de design e usabilidade
+- Vercel
 
 ## 💡 Aprendizados
 Essa experiência foi intensa e empolgante, permitindo colocar em prática conhecimentos técnicos em um ambiente com tempo limitado, simulando desafios reais do mercado de tecnologia.  
