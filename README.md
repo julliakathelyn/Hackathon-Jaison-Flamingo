@@ -5,7 +5,7 @@
 
 🌐 Site: https://hackathon-jaison-flamingo.vercel.app
 
-![App Screenshot]()
+![App Screenshot](img-1.JPG)
 
 ## 📌 Sobre a atividade
 Participei de uma dinâmica em formato de **mini hackathon** promovida pela **Faculdade Flamingo**, onde tive o desafio de, em poucas horas, **analisar e melhorar a estrutura de um código pré-definido** pelo professor.
